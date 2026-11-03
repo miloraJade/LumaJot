@@ -4,7 +4,15 @@
 
 Mac 安装包通过本仓库的 [Releases](https://github.com/miloraJade/LumaJot/releases) 提供。请以各版本说明中的系统要求和测试状态为准。
 
-目前正在准备 0.9.5 测试版，尚未发布正式安装包。
+## 下载 Mac 测试版
+
+**[下载闪记 0.9.5 · macOS DMG（约 6.2 MB）](https://github.com/miloraJade/LumaJot/releases/download/v0.9.5-test/LumaJot-0.9.5-macOS-universal-test.dmg)**
+
+[版本说明与全部附件](https://github.com/miloraJade/LumaJot/releases/tag/v0.9.5-test) · [SHA-256 校验文件](https://github.com/miloraJade/LumaJot/releases/download/v0.9.5-test/SHA256SUMS.txt)
+
+支持 macOS 14.0 及以上，兼容 Apple Silicon 和 Intel Mac。DMG 仅适用于 Mac。
+
+> 当前为测试版，使用 Apple Development 开发签名，尚未完成 Developer ID 分发签名和 Apple 公证，当前 Gatekeeper 评估未通过。其他 Mac 的安装和小组件共享行为仍需验证，安装时可能被系统拦截。请先阅读版本说明。
 
 ## 界面预览
 
