@@ -2,7 +2,19 @@
 
 轻量的便签与待办工具，支持分区管理、多种配色和桌面小组件。
 
-Mac 安装包通过本仓库的 [Releases](https://github.com/miloraJade/LumaJot/releases) 提供。请以各版本说明中的系统要求和测试状态为准。
+Mac 与 Windows 安装包通过本仓库的 [Releases](https://github.com/miloraJade/LumaJot/releases) 提供。请以各版本说明中的系统要求和测试状态为准。
+
+## 下载 Windows 预览版
+
+**[下载闪记 0.1.2 · Windows x64 安装程序（约 75 MB）](https://github.com/miloraJade/LumaJot/releases/download/v0.1.2-windows/LumaJot-0.1.2-Windows-x64-Setup.exe)**
+
+[免安装便携版 ZIP](https://github.com/miloraJade/LumaJot/releases/download/v0.1.2-windows/LumaJot-0.1.2-Windows-x64-portable.zip) · [版本说明与全部附件](https://github.com/miloraJade/LumaJot/releases/tag/v0.1.2-windows) · [SHA-256 校验文件](https://github.com/miloraJade/LumaJot/releases/download/v0.1.2-windows/SHA256SUMS.txt)
+
+适用于 Windows x64，已在 Windows 11 验证；自带 .NET 运行时，无需另外安装。升级前请保存输入框中的文字，并从右下角托盘退出旧版闪记，再运行安装程序。已有便签和同步设置保留。
+
+桌面卡片平时只显示便签框；鼠标移入便签或按钮区域显示操作，移开约半秒后收起。支持独立置顶、缩放、紧凑排布，以及同步文件夹 / 坚果云连接。
+
+> 当前为尚未进行 Windows 代码签名的预览版，首次运行可能显示未知发布者。桌面卡片是独立应用窗口；Win+W 系统小组件、定时 AI 周整理和系统提醒尚未提供。
 
 ## 下载 Mac 测试版
 
@@ -16,7 +28,13 @@ Mac 安装包通过本仓库的 [Releases](https://github.com/miloraJade/LumaJot
 
 ## 界面预览
 
-以下展示 0.9.5（build 26）的界面，全部使用虚构示例内容。
+以下截图全部使用虚构示例内容。Windows 为 0.1.2，苹果端为 0.9.5（build 26）。
+
+### Windows · 桌面便签
+
+![Windows 桌面便签：左侧为闲置时只显示便签，右侧为鼠标移入后显示操作区域](docs/screenshots/06-windows-desktop.png)
+
+以上为 Windows WPF 界面的实际渲染对比，使用示例背景与虚构便签。
 
 ### iPhone 与 iPad
 
